@@ -1,0 +1,77 @@
+body {
+    
+    background-image: url("http://wallpaper-gallery.net/images/best-blue-wallpapers/best-blue-wallpapers-18.jpg");
+    background-repeat: no repeat;
+
+
+}
+h1 {
+	text-align:center;
+    color: blue;
+	margin-top:70px;
+	margin-bottom:70px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  padding: 10px;
+  border: solid 1px #dcdcdc;
+  transition: box-shadow 0.3s, border 0.3s;
+}
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+ input[type="text"].focus {
+  border: solid 1px #707070;
+  box-shadow: 0 0 5px 1px #969696;
+}
+
+label{
+    display: inline-block;
+	vertical-align: baseline;
+	position:relative;
+    top:7px;
+	color:#000000;
+    float: left;
+    clear: left;
+	margin-right:30px;
+	margin-upper-alpha:25px;
+    width: 550px;
+    text-align: right;
+	margin-bottom:40px;
+}
+input {
+  display: inline-block;
+  float: left;
+}
+
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+}
+
+.button1:hover {
+    background-color: #008CBA;
+    color: white;
+}
+
+
+

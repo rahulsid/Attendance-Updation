@@ -1,0 +1,41 @@
+<html>
+<head>
+<title>ATTENDANCE</title>
+</head>
+<body>
+
+<script>
+function openPage(){
+var selection = document.form.radios;
+
+for (i=0; i<selection.length; i++)
+
+  if (selection[i].checked == true)
+  if(selection[i].value=="121"){
+  window.location.replace("regis.jsp");
+  }
+  else if(selection[i].value=="122"){
+  window.location.replace("login.jsp");
+  }
+  
+}
+</script>
+
+
+
+
+<form name="form" action="update.jsp" method="get">
+<input type="radio" value="121" name="radios" onclick="openpage();" />121
+<input type="radio" value="122" name="radios" onclick="openpage();" />122
+<!--<input type="checkbox" name="122" />122-->
+<input type="submit" value="update"/>
+</form>
+
+
+
+
+
+
+
+</body>
+</html>
